@@ -3,5 +3,6 @@ public class Main {
         tic_tac_toe a = new tic_tac_toe();
         a.ttt_game();
         a.user_input();
+        a.board();
     }
 }

@@ -24,4 +24,7 @@ public class tic_tac_toe {
             computer = 'X';
         }
     }
+    public void board(){
+        System.out.print("   |   |\n-----------\n   |   |\n-----------\n   |   |");
+    }
 }
