@@ -1,3 +1,4 @@
+import java.util.*;
 public class tic_tac_toe {
 
     public void ttt_game(){
@@ -8,5 +9,19 @@ public class tic_tac_toe {
             arr[i] = ' ';
         }
     }
-    
+    public void user_input(){
+
+        Scanner sc = new Scanner(System.in);
+        char user = sc.next().charAt(0);
+        char computer;
+        if (user == 'X'){
+            System.out.println("User choose X");
+            System.out.println("Computer have O");
+            computer = 'O';
+        }else {
+            System.out.println("User choose O");
+            System.out.println("Computer have X");
+            computer = 'X';
+        }
+    }
 }
